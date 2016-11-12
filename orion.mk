@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Inherit some common Orion stuff.
+$(call inherit-product, vendor/orion/config/common_full_tablet_wifionly.mk)
+
 # Use 44.1 kHz UI sounds
 $(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackage13.mk)
 
@@ -23,7 +26,7 @@ $(call inherit-product, device/samsung/espresso/device.mk)
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
-PRODUCT_NAME := aosp_espresso
+PRODUCT_NAME := orion_espresso
 PRODUCT_DEVICE := espresso
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Galaxy Tab 2
