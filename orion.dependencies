@@ -1,12 +1,6 @@
 [
   {
     "remote": "github",
-    "repository": "Unlegacy-Android/android_kernel_samsung_espresso",
-    "target_path": "kernel/samsung/espresso",
-    "branch": "stable"
-  },
-  {
-    "remote": "github",
     "repository": "Unlegacy-Android/android_kernel_omap4_common",
     "target_path": "kernel/omap4/common",
     "branch": "3.4/common"
@@ -16,6 +10,12 @@
     "repository": "Unlegacy-Android/proprietary_vendor_samsung",
     "target_path": "vendor/samsung",
     "branch": "aosp-7.1"
+  },
+  {
+    "remote": "github",
+    "repository": "Unlegacy-Android/proprietary_vendor_ti",
+    "target_path": "vendor/ti",
+    "branch": "stable"
   },
   {
     "remote": "github",
